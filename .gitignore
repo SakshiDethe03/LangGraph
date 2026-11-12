@@ -1,0 +1,31 @@
+# Environment variables and secrets (Never commit API keys!)
+.env
+.env.*
+*.env
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# LangGraph / LangSmith temporary files & logs
+.langgraph/
+.langgraph_api/
+
+# Testing and coverage
+.pytest_cache/
+.mypy_cache/
